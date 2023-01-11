@@ -5,64 +5,200 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="output.css" rel="stylesheet" />
-    <title>Lumaza Marketing</title>
+    <link href="images/favicon.jpg" rel="shortcut icon" type="image/jpg" />
+    <title>Document</title>
   </head>
-  <body>
-    <div class="bg-black h-screen">
-      <header
-        class="flex justify-space items-center pt-6 pb-8 px-4 md:px-6 lg:px-8 container mx-auto"
+  <body class="bg-purple relative -z-20">
+    <!-- REDO -->
+
+    <section class="relative -z-20 mx-auto">
+      <div class="absolute top-1/2 left-0 -translate-y-1/2 -z-10">
+        <h1
+          class="font-bold text-[185px] md:text-[300px] lg:text-v-large text-purp-light tracking-tighter"
+        >
+          110%
+        </h1>
+      </div>
+      <div
+        class="md:grid grid-cols-1 md:grid-cols-2 grid-rows-3 md:grid-rows-2 md:max-5xl lg:max-w-7xl lg:mr-0 lg:ml-auto px-5"
       >
-        <a class="inline-block" href="https://www.lumazamarketing.com"
-          ><img
-            src="images/LM Logo Dark.svg"
-            alt="Lumaza Marketing Logo"
-            class="h-20 md:h-24 w-auto"
-        /></a>
-      </header>
-      <section
-        class="flex flex-col h-6/10 justify-center items-center content-center container mx-auto gap-4 pt-24"
-      >
-        <div>
-          <h1
-            class="text-5xl font-bold md:text-6xl lg:text-7xl md:font-extrabold text-lred"
+        <!-- HEADER -->
+
+        <header
+          class="pb-10 pt-5 row-start-1 md:col-start-2 md:row-span-1 md:justify-self-end lg:pl-40 lg:pt-8 lg:pr-8 md:text-right"
+        >
+          <div class="flex items-center justify-between px-4 mx-auto">
+            <img
+              src="images/logo.svg"
+              class="h-6 md:h-10 w-auto md:mr-0 md:ml-auto"
+            />
+
+            <button
+              type="button"
+              id="menu-btn"
+              class="inline-flex p-2 text-peach transition-all duration-200 rounded-full md:hidden focus:text-purp-light hover:text-purp-light"
+            >
+              <svg
+                class="w-7 h-7"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <div class="hidden md:block px-4">
+            <p>
+              <a
+                href="mailto:luke@lumazamarketing.com?subject=I have an enquiry"
+                class="inline-block text-lg font-bold text-white pt-4 hover:text-peach focus:text-peach"
+                >Contact Us</a
+              >
+            </p>
+            <p>
+              <a
+                href="mailto:luke@lumazamarketing.com?subject=I have an enquiry"
+                class="inline-block text-lg font-bold text-white hover:text-peach focus:text-peach"
+                >Blog</a
+              >
+            </p>
+          </div>
+
+          <!-- xs to lg -->
+          <nav
+            id="phone-menu"
+            class="hidden flex-col justify-between w-full min-h-50 px-10 py-10 bg-peach sm:px-6 md:hidden lg:hidden xl:hidden"
           >
-            we're live in
-          </h1>
+            <div class="flex flex-col flex-grow h-full items-center">
+              <nav class="flex flex-col flex-1 space-y-2 items-center">
+                <p>
+                  <a
+                    href="mailto:luke@lumazamarketing.com?subject=I have an enquiry"
+                    class="inline-block text-lg font-bold text-white pt-4 hover:text-purple focus:text-purp-light"
+                    >Contact Us</a
+                  >
+                </p>
+                <p>
+                  <a
+                    href="mailto:luke@lumazamarketing.com?subject=I have an enquiry"
+                    class="inline-block text-lg font-bold text-white hover:text-purple focus:text-purp-light"
+                    >Blog</a
+                  >
+                </p>
+              </nav>
+            </div>
+          </nav>
+        </header>
+
+        <!-- MAIN SECTION -->
+
+        <div
+          class="pb-10 text-left row-start-2 md:col-start-1 md:row-start-1 md:row-span-2"
+        >
+          <h2
+            id="adj1"
+            style="color: #fff"
+            class="uppercase font-bold text-white text-5xl md:text-6xl lg:text-7/5xl leading-none hover:text-peach focus:text-peach transition-all"
+          >
+            DISRUPTION
+          </h2>
+          <h2
+            id="adj2"
+            style="color: #fff"
+            class="uppercase font-bold text-white text-5xl md:text-6xl lg:text-7/5xl leading-normal md:leading-tight hover:text-peach focus:text-peach transition-all"
+          >
+            CONNECTION
+          </h2>
+          <h2
+            id="adj3"
+            style="color: #fff"
+            class="uppercase font-bold text-white text-5xl md:text-6xl lg:text-7/5xl leading-none hover:text-peach focus:text-peach transition-all"
+          >
+            ATTENTION
+          </h2>
+          <h2
+            id="adj4"
+            style="color: #fff"
+            class="uppercase font-bold text-white text-5xl md:text-6xl lg:text-7/5xl leading-normal md:leading-tight hover:text-peach focus:text-peach transition-all"
+          >
+            EMOTION
+          </h2>
+          <h2
+            id="adj5"
+            style="color: #fff"
+            class="uppercase font-bold text-white text-5xl md:text-6xl lg:text-7/5xl leading-none hover:text-peach focus:text-peach transition-all"
+          >
+            POSITION
+          </h2>
+          <h2
+            id="adj6"
+            style="color: #fff"
+            class="uppercase font-bold text-white text-5xl md:text-6xl lg:text-7/5xl leading-normal md:leading-tight hover:text-peach focus:text-peach transition-all"
+          >
+            INNOVATION
+          </h2>
+          <h2
+            id="adj7"
+            style="color: #fff"
+            class="uppercase font-bold text-white text-5xl md:text-6xl lg:text-7/5xl leading-none hover:text-peach focus:text-peach transition-all"
+          >
+            PERCEPTION
+          </h2>
+          <h2
+            id="adj8"
+            style="color: #fff"
+            class="uppercase font-bold text-white text-5xl md:text-6xl lg:text-7/5xl leading-normal md:leading-tight hover:text-peach focus:text-peach transition-all"
+          >
+            INSPIRATION
+          </h2>
+          <h2
+            id="adj9"
+            style="color: #fff"
+            class="uppercase font-bold text-white text-5xl md:text-6xl lg:text-7/5xl leading-none hover:text-peach focus:text-peach transition-all"
+          >
+            IMPERFECTION
+          </h2>
         </div>
-        <div class="flex gap-3 md:gap-6">
-          <div class="flex flex-col items-center">
-            <p class="text-lg font-bold uppercase text-white">Days</p>
-            <p class="text-5xl lg:text-8xl font-extrabold text-white" id="day">
-              0
-            </p>
-          </div>
-          <div class="flex flex-col items-center">
-            <p class="text-lg font-bold uppercase text-white">Hours</p>
-            <p class="text-5xl lg:text-8xl font-extrabold text-white" id="hour">
-              12
-            </p>
-          </div>
-          <div class="flex flex-col items-center">
-            <p class="text-lg font-bold uppercase text-white">Minutes</p>
-            <p
-              class="text-5xl lg:text-8xl font-extrabold text-white"
-              id="minute"
-            >
-              43
-            </p>
-          </div>
-          <div class="flex flex-col items-center">
-            <p class="text-lg font-bold uppercase text-white">Seconds</p>
-            <p
-              class="text-5xl lg:text-8xl font-extrabold text-white"
-              id="second"
-            >
-              18
-            </p>
-          </div>
-        </div>
-      </section>
-    </div>
+
+        <!-- FOOTER -->
+
+        <footer
+          class="row-start-3 md:col-start-2 md:row-start-2 text-left md:text-right self-end md:pb-8 md:pr-8"
+        >
+          <h5 class="uppercase font-bold text-white">
+            © <span id="year">2023</span> ALL RIGHTS RESERVED.
+          </h5>
+          <h5 class="uppercase font-bold text-white">
+            DESIGNED BY
+            <a
+              class="hover:text-peach focus:text-peach"
+              href="https://lumazalabs.com"
+              >LUMAZA LABS</a
+            >.
+          </h5>
+        </footer>
+      </div>
+    </section>
   </body>
-  <script src="main.js"></script>
+  <script src="script.js"></script>
+  <script src="animation.js"></script>
 </html>
+
+<!-- DISRUPTION
+110%
+CONNECTION
+ATTENTION
+EMOTION
+POSITION
+INNOVATION
+PERCEPTION
+INSPIRATION
+IMPERFECTION -->
